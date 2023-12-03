@@ -38,7 +38,6 @@ fs.readFile("input.txt", "utf8", (err, data) => {
 
       num = parseInt(num);
 
-      // Number ended, look around
       if (isSymbol(i, start - 1) || isSymbol(i, j)) {
         ans += num;
         continue;
